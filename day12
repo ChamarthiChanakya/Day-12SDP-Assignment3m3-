@@ -1,0 +1,7 @@
+def pf ():
+  a=input (" enter your string:")
+  c=a.split ()
+  d=[x for x in c if x[0]=="s"]
+  print(d)
+
+pf()

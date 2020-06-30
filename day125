@@ -1,0 +1,7 @@
+def pk():
+      a=input (" enter your string:")
+      c=a.split()
+      d=[x[0] for x in c]
+      print(d)
+      
+pk ()
